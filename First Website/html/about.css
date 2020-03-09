@@ -1,0 +1,54 @@
+body {
+  font-size: 21px;
+  background-color: lightsalmon;
+}
+body, h1, h3 {
+  font-family: "Courgette", serif;
+}
+/* Style the top navigation bar */
+.navbar {
+  background-color: black;
+  display: flex;
+  color: black;
+  border-radius: 5px;
+}
+/* Style the navigation bar links */
+.navbar a {
+  color: white;
+  font-weight: bold;
+  display: flex;
+  padding: 14px 20px;
+  text-decoration: none;
+  text-align: center;
+}
+/* Change color on hover */
+.navbar a:hover {
+  background-color: red;
+  border-radius: 5px;
+}
+.navbar a.active {
+  background-color: red;
+}
+.theMenu {
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.circle {
+  float: right;
+  border-radius: 50%;
+  margin-bottom: 30px;
+  width: 150px;
+}
+.col1 {
+  float: left;
+}
+.col2 {
+  float: right;
+}
+.about {
+  color: black;
+  display: flex;
+  justify-content: center;
+}

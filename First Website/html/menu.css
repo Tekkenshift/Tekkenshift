@@ -1,0 +1,116 @@
+body {
+  font-size: 21px;
+  background-color: lightsalmon;
+}
+body, h1, h3 {
+  font-family: "Courgette", serif;
+}
+/* Style the top navigation bar */
+.navbar {
+  background-color: black;
+  display: flex;
+  color: black;
+  border-radius: 5px;
+}
+/* Style the navigation bar links */
+.navbar a {
+  color: white;
+  font-weight: bold;
+  display: flex;
+  padding: 14px 20px;
+  text-decoration: none;
+  text-align: center;
+}
+/* Change color on hover */
+.navbar a:hover {
+  background-color: red;
+  border-radius: 5px;
+}
+.navbar a.active {
+  background-color: red;
+}
+.theMenu {
+  color: black;
+  display: flex;
+  justify-content: center;
+}
+/* Style the tab */
+.tab {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  border-radius: 5px;
+}
+/* Style the buttons inside the tab */
+.tab button {
+  border-radius: 5px;
+  color: white;
+  text-align: center;
+  background-color: inherit;
+  display: flex;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: red;
+}
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: red;
+}
+/* Style the tab content */
+.tabcontent {
+  text-align: center;
+  background-color: black;
+  display: flex;
+  padding: 6px 12px;
+  border-radius: 5px;
+  color: white;
+  padding: 6px 12px;
+  -webkit-animation: fadeEffect 1s;
+  animation: fadeEffect 1s;
+}
+.allTabs {
+  display: table;
+  width: 700px;
+  flex-direction: column;
+  align-items: center;
+}
+.menuuu {
+  display: flex;
+  justify-content: center;
+}
+/* Fade in tabs */
+@-webkit-keyframes fadeEffect {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+@keyframes fadeEffect {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+h3, p {
+  text-align: left;
+}
+.price {
+  border-radius: 5px;
+  float: right;
+  padding: 5px;
+  background-color: grey;
+}
+.grey {
+  border-radius: 5px;
+  padding: 5px;
+  background-color: grey;
+}
+.red {
+  border-radius: 5px;
+  background-color: red;
+  padding: 5px;
+}

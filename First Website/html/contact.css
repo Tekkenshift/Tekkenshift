@@ -1,0 +1,76 @@
+body {
+  font-size: 21px;
+  background-color: lightsalmon;
+}
+body, h1, h3 {
+  font-family: "Courgette", serif;
+}
+/* Style the top navigation bar */
+.navbar {
+  background-color: black;
+  display: flex;
+  color: black;
+  border-radius: 5px;
+}
+/* Style the navigation bar links */
+.navbar a {
+  color: white;
+  font-weight: bold;
+  display: flex;
+  padding: 14px 20px;
+  text-decoration: none;
+  text-align: center;
+}
+/* Change color on hover */
+.navbar a:hover {
+  background-color: red;
+  border-radius: 5px;
+}
+.navbar a.active {
+  background-color: red;
+}
+.theMenu {
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bg_img {
+  background-image: url(../images/map.jpg);
+  min-height: 700px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  border-radius: 5px;
+}
+input[type=text], select, textarea {
+  width: fit-content;
+  padding: 12px;
+  border: 1px solid black;
+  border-radius: 5px;
+  resize: vertical;
+}
+input[type=submit] {
+  padding: 12px 20px;
+  cursor: pointer;
+}
+.content {
+  margin: 1px 100px;
+  border-radius: 5px;
+}
+.special {
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  padding: 3px;
+}
+.h1 {
+  display: flex;
+  justify-content: center;
+}
+.form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
