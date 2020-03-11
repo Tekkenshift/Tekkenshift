@@ -9,7 +9,7 @@
 
       <div class="navbar">
         <a href="../index.html">HOME</a>
-        <a href="menu.html">MENU</a>
+        <a class="active" href="menu.html">MENU</aclass="active">
         <a href="about.html">ABOUT</a>
         <a href="contact.html">CONTACT</a>
       </div>
@@ -79,23 +79,23 @@
       </div> <!-- tabcontent closed-->
     </div> <!-- allTabs closed -->
   </div>  
-      <script src="../myFirstWebpage.js"></script>
-      <script>
-        function openMenu(evt, menuName) {
-          var i, tabcontent, tablinks;
-          tabcontent = document.getElementsByClassName("tabcontent");
-          for (i = 0; i < tabcontent.length; i++) {
-            tabcontent[i].style.display = "none";
-          }
-          tablinks = document.getElementsByClassName("tablinks");
-          for (i = 0; i < tablinks.length; i++) {
-            tablinks[i].className = tablinks[i].className.replace(" active", "");
-          }
-          document.getElementById(menuName).style.display = "block";
-          evt.currentTarget.className += " active";
-        }
-        document.getElementById("defaultOpen").click();
-        </script>
+<script src="../myFirstWebpage.js"></script>
+<script>
+  function openMenu(evt, menuName) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+      tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+      tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+    document.getElementById(menuName).style.display = "block";
+    evt.currentTarget.className += " active";
+  }
+  document.getElementById("defaultOpen").click();
+  </script>
     </body>
   </head>
 </html>
